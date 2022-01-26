@@ -6,3 +6,5 @@
 
 #The network.tf file spins up the network resources required by
 #the EC2 VM and uses ${terraform.workspace} variable to set their Names/IDs.
+original from 
+git clone https://github.com/linuxacademy/content-hashicorp-certified-terraform-associate-foundations.git
