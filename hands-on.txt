@@ -1,6 +1,6 @@
 Using Terraform CLI Commands (workspace and state) to Manipulate a Terraform Deployment
 Introduction
-
+ 
 In this hands-on lab, we will create two distinct, parallel environments against the same Terraform code using the terraform workspace command. We will also use the terraform state command to see what resources are being tracked in the state files of the different workspaces.
 Solution
 
