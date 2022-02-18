@@ -7,6 +7,7 @@ data "aws_ssm_parameter" "linuxAmi" {
   name = "/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2"
 }
 
+
 #Create and bootstrap EC2 in us-east-1
 resource "aws_instance" "ec2-vm" {
   ami                         = data.aws_ssm_parameter.linuxAmi.value
